@@ -68,7 +68,15 @@ ls -l Documents
 ```
 
 
-### Locator (finding the elements)
+## Locator (finding the elements)
+Available locators in selenium (find_element(By.locator, 'value')):
+- ID
+- NAME
+- XPATH
+- CLASS_NAME
+- CSS_SELECTOR
+- LINK_TEXT
+- PARTIAL_LINK_TEXT
 
 ## 2. WebDriver class 
 simulates browser action 
