@@ -80,6 +80,11 @@ Available locators in selenium (find_element(By.locator, 'value')):
 
 ## 2. WebDriver class 
 simulates browser action 
+- properties: 	current_url, current_window_handle, window_handles, name,
+				title, 
+- methods: 		find_element(), send_keys(), switch_to.window(), back(), 	
+				refresh() ....
+
 
 ## 3. WebElement class
 simulates element actions 
