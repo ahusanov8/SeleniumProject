@@ -85,6 +85,25 @@ simulates browser action
 - methods: 		find_element(), send_keys(), switch_to.window(), back(), 	
 				refresh() ....
 
+## API - application programming interface
+SOAP - xml, older api type
+REST API - json, xml (http messages and responses)
+
+add.resources('/query')
+def query(function, symbol, apikey):
+	# verify apikey
+	# find global quote for symbol
+
+```commandline
+https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=OZ8SJC8A5DGNC
+
+https://dog.ceo/api/breed/hound/english/images/random
+
+```
+
+Method: GET, POST, PUT, DELETE
+response code: 200, 201, 300, 401, 404, 500
+
 
 ## 3. WebElement class
 simulates element actions 
