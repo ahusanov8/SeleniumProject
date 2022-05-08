@@ -107,11 +107,21 @@ response code: 200, 201, 300, 401, 404, 500
 
 ## 3. WebElement class
 simulates element actions 
+Done topics: 
+- Working with find_elements() - returns list of elements
+- Webelement properties (text, size, tag_name) 
+- Webelement methods: clear(), click(), send_keys(), is_displayed(), is_enabled(), get_attribute()
+- Working with alerts and pop-up windows (from previous session, from webdriver class)
+
+  TODO: 
 - Working with forms, textboxes, checkboxes, and radio buttons
 - Working with dropdowns and lists
-- Working with alerts and pop-up windows
 
 ## 4. Synchronizing Tests
+Difference between implicit and explicit waits
+What is explicit wait?
+How to build explicit wait with different conditions?
+
 ## 5. Advanced Techniques of Selenium WebDriver
 mouse movement, Executing JavaScript
 	
